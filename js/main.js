@@ -4,4 +4,4 @@ $(document).ready(() => {
 
 $('.main-wrapper').on("click", (event) => {
     console.log("Clicked the main wrapper!");
-})
+});
