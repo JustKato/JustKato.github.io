@@ -1,6 +1,6 @@
 function PreLoadContainers() {
     $.ajax({
-        url: `https://raw.githubusercontent.com/KatoTwofold/KatoTwofold.github.io/master/Database/containers.json`,
+        url: `http://justkato.me/Database/containers.json`,
         type: `get`,
         complete: (msg) => {
             if (msg.status == 200) {

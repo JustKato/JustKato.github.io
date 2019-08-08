@@ -4,6 +4,11 @@
       "title": "Database Management Software",
       "description": "&nbsp;&nbsp;&nbsp;&nbsp;I have worked 6 months on a database management software for a company from Romania. <br> &nbsp;&nbsp;&nbsp;&nbsp;Provided all the code and hired another staff member 5 months in only for the maintenance of the software.<br> &nbsp;&nbsp;&nbsp;&nbsp;The client is happy and the product has been delivered as per contract, the software itself has been developed in <b>NodeJS</b> using the Electron framework (as requested by the company).",
       "bg-image": "http://justkato.me/Images/Containers/Software.png"
+    },
+    {
+      "title": "Application Development",
+      "description": "&nbsp;&nbsp;&nbsp;&nbsp;My deep dive into the \"apps\" world has helped me learn a lot about game design and creating applications for mobile devices. <br>&nbsp;&nbsp;&nbsp;&nbsp;I have been using Unity since 2016, but ever since they have showed a disregard towards their customers I have opted for an FOSS ( Free Open Source ) Game Engine, <a href=\"https://godotengine.org\">Godot Game Engine</a>.<br><br>&nbsp;&nbsp;&nbsp;&nbsp;After only a week I have mastered Godot Engine's basics and have become confident enough at creating my own app ( Neon Bounce ).",
+      "bg-image": "http://justkato.me/Images/Containers/Application.png"
     }
   ],
   "experience": [
