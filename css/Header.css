@@ -18,6 +18,7 @@ header {
 
     z-index: 100;
     user-select: none;
+    transition-duration: 1s;
 }
 
 header .header-item {
@@ -31,4 +32,14 @@ header .header-item {
 header .header-item:hover {
     color: var(--accent-orange);
     /*color: white;*/
+}
+
+
+@media only screen
+and (max-width : 600px) {
+
+    header {
+        opacity: 0;
+    }
+
 }
