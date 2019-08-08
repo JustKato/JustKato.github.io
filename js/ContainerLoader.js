@@ -26,7 +26,7 @@ function LoadContainers(container_data) {
                 <div class="description">${experience[i].description}</div>
             </div>
             `;
-        $('.container[category="projects"]').append(html);
+        $('.container[category="experience"]').append(html);
     }
 
     for (let i = 0; i < projects.length; i++) {
@@ -39,7 +39,7 @@ function LoadContainers(container_data) {
                 <div class="description">${projects[i].description}</div>
             </div>
             `;
-        $('.container[category="experience"]').append(html);
+        $('.container[category="projects"]').append(html);
     }
 
 }
