@@ -4,6 +4,7 @@
 @import "./Intro.css";
 @import "./ScrollBar.css";
 @import "./Animations.css";
+@import "./Containers.css";
 
 :root {
     scroll-behavior: smooth;

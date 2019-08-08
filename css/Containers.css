@@ -1,0 +1,46 @@
+.container {
+    position: relative;
+
+    margin: 2rem 0;
+}
+
+.container .title {
+    font-family: 'Ubuntu', 'Roboto', sans-serif;
+    font-size: 4rem;
+}
+
+.container .section {
+    position: relative;
+
+    min-height: 20rem;
+}
+
+.container .section .bg-gradient, .bg-img {
+    position: absolute;
+    right: 0;
+    top: 0;
+
+    width: 50%;
+    height: 100%;
+}
+
+.container .section .bg-gradient {
+    /*background: linear-gradient(to left, #ffffff00, var(--black1));*/
+    background: linear-gradient(to left, #ffffff00, #ffffff00, #ffffff00, #ffffff00, #ffffff00, var(--black1));
+}
+.container .section .bg-img {
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container .section .section-title {
+    color: var(--late1);
+    margin-top: 1rem;
+    font-size: 2.5rem;
+
+}
+.container .section .description {
+    color: var(--late3);
+    max-width: 47%;
+    font-size: 1.25rem;
+}

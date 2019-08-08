@@ -73,7 +73,7 @@
     cursor: pointer;
 }
 
-.intro .icons .icon .icon-leader,.icon-dev,.icon-design {
+.intro .icons .icon .icon-experience,.icon-about,.icon-projects {
     width:  5rem;
     height: 5rem;
 
@@ -88,30 +88,30 @@
     transition-duration: 300ms;
 }
 
-.intro .icons .icon:hover .icon-dev {
+.intro .icons .icon:hover .icon-about {
     animation: wiggle-in 500ms forwards ease-in-out;
     opacity: 1;
 }
 
-.intro .icons .icon:hover .icon-design {
+.intro .icons .icon:hover .icon-projects {
     animation: wiggle-in 500ms reverse ease-in-out;
     opacity: 1;
 }
 
-.intro .icons .icon:hover .icon-leader {
+.intro .icons .icon:hover .icon-experience {
     animation: wiggle-in 500ms forwards ease-in-out;
     opacity: 1;
 }
 
-.intro .icons .icon .icon-design {
+.intro .icons .icon .icon-projects {
     background-image: url("../Images/icons/sketch.svg");
 }
 
-.intro .icons .icon .icon-dev {
+.intro .icons .icon .icon-about {
     background-image: url("../Images/icons/algorithm.svg");
 }
 
-.intro .icons .icon .icon-leader {
+.intro .icons .icon .icon-experience {
     background-image: url("../Images/icons/creative-idea.svg");
 }
 
@@ -146,7 +146,7 @@ and (max-width : 600px) {
         width: 100%;
     }
 
-    .intro .icons .icon .icon-leader,.icon-dev,.icon-design {
+    .intro .icons .icon .icon-experience,.icon-about,.icon-projects {
         width: 3.5rem;
         height: 3.5rem;
     }

@@ -3,13 +3,15 @@
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Page Title</title>
+    <link rel="shortcut icon" href="./favicon.ico">
+    <title>Kato Twofold</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='./css/main.css'>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"
             integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-    <script src='./js/main.js'></script>
     <script src='./js/AnimationMaster.js'></script>
+    <script src='./js/ContainerLoader.js'></script>
+    <script src='./js/main.js'></script>
 </head>
 <body>
 
@@ -17,7 +19,7 @@
     <header>
         <div class="header-item">Home</div>
         <div class="header-item">Projects</div>
-        <div class="header-item">About</div>
+        <div class="header-item">Experience</div>
         <div class="header-item">Contact</div>
         <div class="header-item"></div>
         <div class="header-item"></div>
@@ -27,26 +29,49 @@
         <div class="title">
             <h1 style="margin-bottom: -.5rem;">KATO TWOFOLD</h1>
             <h2 style="user-select: none"><span class="txt-rotate" data-period="1000"
-                    data-rotate='[ "Developer", "Designer.", "Team leader", "Workaholic" ]'></span></h2>
+                                                data-rotate='[ "Developer.", "Designer.", "Team leader.", "Experienced.", "Linux Engineer.","Linux Engineer.", "Networking Knowledge.", "Workaholic." ]'></span>
+            </h2>
         </div>
         <div class="icons">
             <div class="icon">
-                <div class="icon-dev"></div>
+                <div class="icon-about"></div>
+                <p>About Me</p>
+            </div>
+            <div class="icon">
+                <div class="icon-projects"></div>
                 <p>Projects</p>
             </div>
             <div class="icon">
-                <div class="icon-design"></div>
-                <p>Designs</p>
-            </div>
-            <div class="icon">
-                <div class="icon-leader"></div>
-                <p>About</p>
+                <div class="icon-experience"></div>
+                <p>Past Experience</p>
             </div>
         </div>
         <div class="gradient"></div>
     </div>
+    <div category="projects" class="container">
+        <div class="title">Projects</div>
+        <div class="section">
+            <div class="bg-img" style="background-image: url('./Images/Containers/Software.png')"></div>
+            <div class="bg-gradient"></div>
+            <div class="section-title">Database Management Software</div>
+            <div class="description">
+                &nbsp;&nbsp;&nbsp;&nbsp;I have worked 6 months on a database management software for a company from Romania. <br>
+                &nbsp;&nbsp;&nbsp;&nbsp;Provided all the code and hired another staff
+                member 5 months in only for the maintenance of the software.<br><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;The client is happy and the product has been delivered as per contract, the
+                software itself has been developed in <b>NodeJS</b> using the Electron
+                framework (as requested by the company).
+            </div>
+        </div>
+    </div>
 
-    <div class="container">
+    <div category="about" class="container">
+        <div class="title">About Me</div>
+
+    </div>
+
+    <div category="experience" class="container">
+        <div class="title">Past Experience</div>
 
     </div>
 </div>
