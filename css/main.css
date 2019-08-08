@@ -1,33 +1,30 @@
 @import "./Fonts.css";
 @import "./Colors.css";
 @import "./Header.css";
+@import "./Intro.css";
+@import "./ScrollBar.css";
+@import "./Animations.css";
+
+:root {
+    scroll-behavior: smooth;
+}
+
 
 html, body {
     font-family: 'Raleway', 'Roboto', 'Ubuntu', sans-serif;
     padding: 0;
     margin: 0;
-    background: var(--black);
-    color: var(--late);
+    background: var(--black1);
+    color: var(--late0);
 }
 
 .main-wrapper {
+    display: flex;
+    flex-flow: column;
 
+    min-height: 200rem;
 }
 
 .container {
     padding: 2rem;
-}
-
-h1, h2 {
-    font-weight: 200;
-    margin: 0.4em 0;
-}
-
-h1 {
-    font-size: 3.5em;
-}
-
-h2 {
-    color: var(--late1);
-    font-size: 2em;
 }

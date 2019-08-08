@@ -21,9 +21,9 @@ TxtRotate.prototype.tick = function() {
     this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
 
     var that = this;
-    var delta = 300 - Math.random() * 100;
+    var delta = 250 - Math.random() * 100;
 
-    if (this.isDeleting) { delta /= 2; }
+    if (this.isDeleting) { delta /= 3; }
 
     if (!this.isDeleting && this.txt === fullTxt) {
         delta = this.period;
@@ -40,7 +40,7 @@ TxtRotate.prototype.tick = function() {
 };
 
 window.onload = function() {
-    var elements = document.getElementsByClassName('data-container');
+    var elements = document.getElementsByClassName('txt-rotate');
     for (var i=0; i<elements.length; i++) {
         var toRotate = elements[i].getAttribute('data-rotate');
         var period = elements[i].getAttribute('data-period');
@@ -51,6 +51,6 @@ window.onload = function() {
     // INJECT CSS
     var css = document.createElement("style");
     css.type = "text/css";
-    css.innerHTML = ".data-container > .wrap { border-right: 0.08em solid #666 }";
+    css.innerHTML = ".txt-rotate > .wrap { border-right: 0.08em solid #666 }";
     document.body.appendChild(css);
 };

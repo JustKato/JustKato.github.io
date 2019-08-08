@@ -1,0 +1,130 @@
+.intro {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("../Images/BG/DarkSky.png");
+}
+
+.intro .title {
+    margin-top: 10%;
+
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro .title h1, h2 {
+    font-weight: 200;
+    margin: 0.4em 0;
+
+    text-shadow: 0 0 2px black;
+}
+
+.intro .title h1 {
+    color: var(--late0);
+    font-size: 4.5rem;
+    animation: pop-out forwards 400ms ease-in-out;
+    transition-duration: 250ms;
+}
+
+.intro .title h1:hover {
+    color: white;
+    animation: pop-in forwards 250ms ease-in-out;
+}
+
+.intro .title h2 {
+    color: var(--late1);
+    font-size: 3rem;
+
+    transition-delay: 50ms;
+    transition-duration: 300ms;
+}
+
+.intro .title h2:hover {
+    color: white;
+    transform: scale(1.025);
+}
+
+.intro .gradient {
+    position: absolute;
+    bottom: 0;
+
+    width: 100%;
+    height: 6rem;
+
+    background-image: linear-gradient(#ffffff00, var(--black1));
+}
+
+.intro .icons {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 3rem;
+
+    margin: 6rem auto 0 auto;
+
+    width: 40%;
+}
+
+.intro .icons .icon {
+    cursor: pointer;
+}
+
+.intro .icons .icon .icon-leader,.icon-dev,.icon-design {
+    width:  5rem;
+    height: 5rem;
+
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    filter: invert(100%);
+    opacity: 0.4;
+
+    margin: 0 auto;
+
+    transition-duration: 300ms;
+}
+
+.intro .icons .icon:hover .icon-dev {
+    animation: wiggle-in 500ms forwards ease-in-out;
+    opacity: 1;
+}
+
+.intro .icons .icon:hover .icon-design {
+    animation: wiggle-in 500ms reverse ease-in-out;
+    opacity: 1;
+}
+
+.intro .icons .icon:hover .icon-leader {
+    animation: wiggle-in 500ms forwards ease-in-out;
+    opacity: 1;
+}
+
+.intro .icons .icon .icon-design {
+    background-image: url("../Images/icons/sketch.svg");
+}
+
+.intro .icons .icon .icon-dev {
+    background-image: url("../Images/icons/algorithm.svg");
+}
+
+.intro .icons .icon .icon-leader {
+    background-image: url("../Images/icons/creative-idea.svg");
+}
+
+.intro .icons .icon p {
+    margin-top: .45rem;
+    text-align: center;
+    font-size: 1.8rem;
+
+    opacity: 0;
+    transition-duration: 300ms;
+}
+
+.intro .icons .icon:hover p {
+    color: white;
+    opacity: 1;
+}
