@@ -11,6 +11,7 @@
 
 .container .section {
     position: relative;
+    margin: 5rem 0;
 
     min-height: 20rem;
 }
@@ -31,16 +32,46 @@
 .container .section .bg-img {
     background-size: cover;
     background-repeat: no-repeat;
+    z-index: 0;
 }
 
 .container .section .section-title {
     color: var(--late1);
     margin-top: 1rem;
     font-size: 2.5rem;
+    width: 50%;
 
+    z-index: 2;
 }
 .container .section .description {
     color: var(--late3);
     max-width: 47%;
     font-size: 1.25rem;
+
+    z-index: 2;
+}
+
+@media only screen and (max-width: 1000px) {
+
+    .container .section .section-title {
+        font-size: 3rem;
+        width: 100%;
+    }
+
+    .container .section .description {
+        max-width: 100%;
+        font-size: 1.35rem;
+    }
+
+    .container .section .bg-gradient {
+        display: none;
+        position: absolute;
+    }
+
+    .container .section .bg-img {
+        margin-top: 1rem;
+        position: unset;
+        width: 100%;
+        min-height: 20rem;
+    }
 }

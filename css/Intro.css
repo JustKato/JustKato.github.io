@@ -70,7 +70,10 @@
 }
 
 .intro .icons .icon {
+    width: 10rem;
+
     cursor: pointer;
+    margin: 0 auto;
 }
 
 .intro .icons .icon .icon-experience,.icon-about,.icon-projects {
@@ -116,6 +119,7 @@
 }
 
 .intro .icons .icon p {
+    text-align: center;
     margin-top: .45rem;
     text-align: center;
     font-size: 1.8rem;
@@ -134,7 +138,7 @@ and (max-width : 1000px) {
     .intro .icons {
         grid-template-columns: auto auto auto;
         grid-column-gap: unset;
-        width: 100%;
+        width: 80%;
     }
 }
 
@@ -144,6 +148,10 @@ and (max-width : 600px) {
     .intro .icons {
         grid-template-columns: auto auto auto;
         width: 100%;
+    }
+
+    .intro .icons .icon p {
+        font-size: 1.5rem;
     }
 
     .intro .icons .icon .icon-experience,.icon-about,.icon-projects {

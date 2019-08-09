@@ -20,10 +20,10 @@ function LoadContainers(container_data) {
         let html =
             `
             <div class="section">
-                <div class="bg-img" style="background-image: url('${experience[i]["bg-image"]}')"></div>
-                <div class="bg-gradient"></div>
                 <div class="section-title">${experience[i].title}</div>
                 <div class="description">${experience[i].description}</div>
+                <div class="bg-img" style="background-image: url('${experience[i]["bg-image"]}')"></div>
+                <div class="bg-gradient"></div>
             </div>
             `;
         $('.container[category="experience"]').append(html);
@@ -33,10 +33,10 @@ function LoadContainers(container_data) {
         let html =
             `
             <div class="section">
-                <div class="bg-img" style="background-image: url('${projects[i]["bg-image"]}')"></div>
-                <div class="bg-gradient"></div>
                 <div class="section-title">${projects[i].title}</div>
                 <div class="description">${projects[i].description}</div>
+                <div class="bg-img" style="background-image: url('${projects[i]["bg-image"]}')"></div>
+                <div class="bg-gradient"></div>
             </div>
             `;
         $('.container[category="projects"]').append(html);
