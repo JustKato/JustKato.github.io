@@ -11,17 +11,20 @@ function ToggleSettings() {
 
 $(document).ready(() => {
 
-    try { ChangeBg(localStorage.getItem("theme")); } catch (e) {};
+    try { ChangeBg(localStorage.getItem("theme")); } catch (e) {}
 
     $('#theme_select').change(() => {
         let value = $('#theme_select').val();
 
         ChangeBg(value);
         localStorage.setItem("theme", value);
-    })
+    });
+
 
     $(document).scroll(() => {
-        $(`.settings .icon`).css('opacity', (1 - scrollY/600).toFixed(2))
-    })
+        $(`.settings .icon`).css('opacity', (1 - scrollY/600).toFixed(2));
+    });
+
+    $('#theme_select').val(localStorage.getItem("theme").toUpperCase());
 
 });
