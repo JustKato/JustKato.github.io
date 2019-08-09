@@ -1,0 +1,66 @@
+.settings {
+    z-index: 2;
+    background-color: rgba(0, 0, 0, 0);
+
+    position: fixed;
+    top: 2rem;
+    right: 7rem;
+}
+
+.settings .icon {
+    position: fixed;
+    top: 1.5rem;
+    right: 1.5rem;
+
+    width: 4rem;
+    height: 4rem;
+
+    margin-left: auto;
+
+    border-radius: 1000rem;
+    filter: invert(1);
+
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("../Images/icons/cog.svg");
+
+    transition-duration: 250ms;
+    transition-timing-function: ease-in-out;
+    cursor: pointer;
+}
+
+.settings .icon:hover {
+    transform: scale(1.1);
+}
+
+.settings .menu {
+    color: var(--late0);
+
+    width: 11rem;
+    height: 10rem;
+
+    padding: 1rem;
+
+    border: 2px solid var(--late0);
+    border-radius: 1rem;
+
+    transition-duration: 100ms;
+}
+
+.settings .menu .elem {
+    color: inherit;
+
+    width: 100%;
+    margin: 0;
+    padding: 0 1rem;
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.15rem;
+
+    background-color: transparent;
+
+    border: none;
+    border-bottom: 1px solid white;
+
+    outline: none;
+}

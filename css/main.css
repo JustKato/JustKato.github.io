@@ -5,6 +5,7 @@
 @import "./ScrollBar.css";
 @import "./Animations.css";
 @import "./Containers.css";
+@import "./Settings.css";
 
 :root {
     scroll-behavior: smooth;
@@ -17,6 +18,8 @@ html, body {
     margin: 0;
     background: var(--black1);
     color: var(--late0);
+
+    overflow-x: hidden;
 }
 
 .main-wrapper {

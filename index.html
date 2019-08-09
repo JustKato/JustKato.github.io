@@ -11,19 +11,31 @@
             integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <script src='./js/AnimationMaster.js'></script>
     <script src='./js/ContainerLoader.js'></script>
+    <script src='./js/Settings.js'></script>
     <script src='./js/main.js'></script>
 </head>
 <body>
 
 <div class="main-wrapper">
     <header>
-        <div class="header-item">Home</div>
-        <div class="header-item">Projects</div>
-        <div class="header-item">Experience</div>
-        <div class="header-item">Contact</div>
+        <div class="header-item" onclick="ScrollTo('')">Home</div>
+        <div class="header-item" onclick="ScrollTo('projects')">Projects</div>
+        <div class="header-item" onclick="ScrollTo('abilities')">Abilities</div>
+        <div class="header-item" onclick="alert('Sorry, not implemented yet!')">Contact</div>
         <div class="header-item"></div>
         <div class="header-item"></div>
     </header>
+    <div class="settings">
+        <div class="icon" onClick="ToggleSettings();"></div>
+        <div style="opacity: 0; border: none" class="menu">
+            <select id="theme_select" class="elem">
+                <option value="current">Theme</option>
+                <option value="DARK_SKY">Night Sky</option>
+                <option value="FERN">Nature</option>
+                <option value="DOCKS">Docks</option>
+            </select>
+        </div>
+    </div>
     <div class="intro">
         <br><br><br><br>
         <div class="title">
@@ -34,31 +46,35 @@
         </div>
         <div class="icons">
             <div class="icon">
-                <div class="icon-about"></div>
-                <p>About Me</p>
+                <div onclick="ScrollTo('#about');" class="icon-about"></div>
+                <p>About</p>
+                <div class="description">
+
+                </div>
             </div>
             <div class="icon">
-                <div class="icon-projects"></div>
+                <div onclick="ScrollTo('#projects');" class="icon-projects"></div>
                 <p>Projects</p>
             </div>
             <div class="icon">
-                <div class="icon-experience"></div>
-                <p>Experience</p>
+                <div onclick="ScrollTo('#abilities');" class="icon-experience"></div>
+                <p>Abilities</p>
             </div>
         </div>
         <div class="gradient"></div>
     </div>
-    <div category="projects" class="container">
+
+    <div id="about" category="about" class="container">
+        <div class="title">About</div>
+
+    </div>
+
+    <div id="projects" category="projects" class="container">
         <div class="title">Projects</div>
     </div>
 
-    <div category="about" class="container">
-        <div class="title">About Me</div>
-
-    </div>
-
-    <div category="experience" class="container">
-        <div class="title">Experience</div>
+    <div id="abilities" category="abilities" class="container">
+        <div class="title">Abilities</div>
 
     </div>
 </div>

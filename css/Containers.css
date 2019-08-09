@@ -16,19 +16,53 @@
     min-height: 20rem;
 }
 
-.container .section .bg-gradient, .bg-img {
+.bg-gradient, .bg-img {
     position: absolute;
     right: 0;
     top: 0;
 
     width: 50%;
     height: 100%;
+
+    transition-duration: 250ms;
+}
+
+.container .section:nth-child(odd) .bg-gradient,
+.container .section:nth-child(odd) .bg-img {
+    right: unset;
+    left: 0;
+}
+
+.container .section:nth-child(odd) .bg-gradient {
+    right: unset;
+    left: 0;
+
+    transform: scaleX(-1);
+}
+.container .section:nth-child(odd) .section-title,
+.container .section:nth-child(odd) .description {
+    text-align: right;
+    margin-left: auto;
 }
 
 .container .section .bg-gradient {
     /*background: linear-gradient(to left, #ffffff00, var(--black1));*/
-    background: linear-gradient(to left, #ffffff00, #ffffff00, #ffffff00, #ffffff00, #ffffff00, var(--black1));
+    background: linear-gradient(to left, #ffffff00, #ffffff00, #ffffff00, #ffffff00, var(--black1));
+    transition-duration: 250ms;
 }
+
+.container .section:nth-child(even) .bg-gradient:hover {
+    width: 80%;
+    right: -30%;
+    background: linear-gradient(to left, #ffffff00, #ffffff00, #ffffff00, var(--black1));
+}
+
+.container .section:nth-child(odd) .bg-gradient:hover {
+    width: 80%;
+    left: -30%;
+    background: linear-gradient(to left, #ffffff00, #ffffff00, #ffffff00, var(--black1));
+}
+
 .container .section .bg-img {
     background-size: cover;
     background-repeat: no-repeat;
@@ -37,7 +71,8 @@
 
 .container .section .section-title {
     color: var(--late1);
-    margin-top: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 2.5rem;
     font-size: 2.5rem;
     width: 50%;
 
