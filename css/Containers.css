@@ -159,6 +159,18 @@
     z-index: 2;
 }
 
+@media only screen and (max-width: 1300px) {
+
+    #about .description p {
+        font-size: 1.15rem;
+
+        max-width: 100%;
+
+        margin: 1rem 3rem;
+    }
+}
+
+
 @media only screen and (max-width: 1000px) {
 
     .container .section .section-title {
@@ -181,5 +193,11 @@
         position: unset;
         width: 100%;
         min-height: 20rem;
+    }
+
+    #about .description {
+        flex-flow: column;
+
+        margin: 2.5rem 0 2.5rem 0;
     }
 }
