@@ -54,6 +54,7 @@ function ChangeBg(theme) {
 }
 
 function ChangeColor(key, value) {
+    return;
     $(':root').css(key, value);
 }
 

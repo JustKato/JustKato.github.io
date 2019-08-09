@@ -19,4 +19,9 @@ $(document).ready(() => {
         ChangeBg(value);
         localStorage.setItem("theme", value);
     })
+
+    $(document).scroll(() => {
+        $(`.settings .icon`).css('opacity', (1 - scrollY/600).toFixed(2))
+    })
+
 });

@@ -33,6 +33,9 @@ html, body {
     padding: 2rem;
 }
 
+a:hover {
+    cursor: pointer;
+}
 /* Corrections*/
 a, a:visited, a:hover, a:active {
     color: var(--accent-red);
