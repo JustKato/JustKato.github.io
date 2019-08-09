@@ -12,18 +12,11 @@
     },
     {
       "title": "Successful Game Servers",
-      "description": "&nbsp;&nbsp;&nbsp;&nbsp;Along the time I have owned and hosted a massive amount of game servers. These game servers have initially introduced me to the concept of servers, slowly teaching me about networking and how the IOT works.<br> Armed with the knowledge of hosting I have pushed myself harder and harder each addition.<br>I have gained a lot of experience with hosting websites and managing through all the various popular hosting panels such as cpanel, Plesk, DirectAdmin and many others. After years and years of paying others to maintain my servers, I decided to finally get my own home server, which I have turned into my go-to server that has a dynamic iP Address written in NodeJS by me to contact <a href=\"https://namecheap.com\">namecheap.com</a>'s API. My servers had little to no down-time at all and I have managed them by myself for all those years accumulating plenty of Linux and windows server knowledge.",
+      "description": "&nbsp;&nbsp;&nbsp;&nbsp;I have owned and hosted an amount of game servers. These game servers have initially introduced me to the concept of servers, teaching me about networking and how the IOT works.<br><br>&nbsp;&nbsp;&nbsp;&nbsp;The amount of fun I have had was more so from administering the server from either the web-panel or from all the hundreds of config files that I had on my at the moment <a href=\"https://www.archlinux.org/\">Arch Linux</a> server, pushing me to strive for better and better, and to learn so that I can perform better.<br>I have gained a lot of experience with hosting games and managing through all the various popular hosting panels such as <a href=\"https://cpanel.net/\">cpanel</a>, <a href=\"https://www.plesk.com/\">Plesk</a>, <a href=\"https://www.directadmin.com\">DirectAdmin</a> and many others. At one point I have had decided to finally get my own home server, which I have turned into my go-to server that has an annoying dynamic iP Address that I had to write a program for to auto updates the name-servers, written in <a href=\"https://nodejs.org/en/\">NodeJS</a> by me to contact <a href=\"https://namecheap.com\">namecheap.com</a>'s API. My servers had little to no down-time and I have managed them by myself for all those years accumulating plenty of Linux and windows server knowledge.",
       "bg-image": "http://justkato.me/Images/Containers/Games.png"
     }
   ],
-  "experience": [
-    {
-      "title": "",
-      "description": "",
-      "bg-image": ""
-    }
-  ],
-  "about": [
+  "abilities": [
     {
       "title": "",
       "description": "",
