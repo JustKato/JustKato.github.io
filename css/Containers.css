@@ -41,7 +41,7 @@
     flex-flow: row;
     align-items: flex-start;
 
-    margin: 10rem 0 10rem 5rem;
+    margin: 5rem 0 10rem 0;
 }
 
 #about .description p {
@@ -134,6 +134,9 @@
 .container .section .bg-img {
     background-size: cover;
     background-repeat: no-repeat;
+
+    border-bottom: 1px solid var(--accent-red);
+
     z-index: 0;
 }
 
