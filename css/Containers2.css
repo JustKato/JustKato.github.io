@@ -1,0 +1,50 @@
+.project-timeline {
+    margin-top: 4rem;
+    position: relative;
+
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}
+
+.project-timeline .Project {
+    position: relative;
+    text-align: left;
+    width: 50%;
+
+    margin: 0 auto 0 0;
+
+    border-right: 1px solid white;
+}
+
+.project-timeline .Project .project-contents {
+    margin: 0 1rem 0 auto;
+    width: 50%;
+}
+
+.project-timeline .Project .project-contents .project-title {
+    font-size: 2rem;
+    margin: 1rem 0;
+}
+
+.project-timeline .Project .project-contents .role,
+.project-timeline .Project .project-contents .Scope,
+.project-timeline .Project .project-contents .Used,
+.project-timeline .Project .project-contents .Problems {
+    position: relative;
+    margin-bottom: 3.5rem;
+}
+
+project-timeline .Project .project-contents .role:after,
+.project-timeline .Project .project-contents .Scope:after,
+.project-timeline .Project .project-contents .Used:after,
+.project-timeline .Project .project-contents .Problems:after {
+    content: attr(title);
+    position: absolute;
+    top: -2.5rem;
+    left: 0;
+
+    font-size: 1.7rem;
+    font-weight: 300;
+
+}

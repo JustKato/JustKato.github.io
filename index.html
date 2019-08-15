@@ -6,6 +6,10 @@
     <link rel="shortcut icon" href="./favicon.ico">
     <title>Kato Twofold</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <meta name="description" content="A personal website which includes a portfolio and a resources page, with code snippets and a small wiki">
+    <meta name="keywords" content="HTML,CSS,JavaScript,json,java,cv">
+    <meta name="author" content="Kato Twofold">
+
     <link rel='stylesheet' type='text/css' media='screen' href='./css/main.css'>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"
             integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
@@ -22,6 +26,7 @@
         <div class="header-item" onclick="ScrollTo('about')">About</div>
         <div class="header-item" onclick="ScrollTo('projects')">Projects</div>
         <div class="header-item" onclick="ScrollTo('abilities')">Abilities</div>
+        <div class="header-item" onclick="window.location += `/resources.html`">Resources</div>
         <div class="header-item" onclick="alert('Sorry, not implemented yet!')">Contact</div>
         <div class="header-item"></div>
         <div class="header-item"></div>
@@ -57,6 +62,10 @@
                 <div onclick="ScrollTo('#abilities');" class="icon-experience"></div>
                 <p>Abilities</p>
             </div>
+            <div class="icon">
+                <div onclick="window.location += `resources.html`" class="icon-resources"></div>
+                <p>Resources</p>
+            </div>
         </div>
         <div class="gradient"></div>
     </div>
@@ -69,8 +78,43 @@
         </div>
     </div>
 
-    <div id="projects" category="projects" class="container">
+<!--    <div id="projects" category="projects" class="container">-->
+<!--        <div class="emptys"></div>-->
+<!--        <div class="title">Projects</div>-->
+<!--    </div>-->
+
+    <div class="container">
         <div class="title">Projects</div>
+        <div class="project-timeline">
+            <div class="Project">
+                <div class="project-contents">
+                    <div class="project-title">Database Management</div>
+                    <div title="Role" class="role">
+                        Head developer, tasked with managing the team and making sure everyone was 100% efficient
+                    </div>
+                    <div title="Scope" class="Scope">
+                        A program that manages a vehicle database, along-side the contracts/annex
+                        error checking and giving reports for weekly/monthly/yearly contracts.
+                    </div>
+                    <div title="Problems" class="Problems">
+                        <p>
+                            The first real problem we have encountered was managing the vehicles,
+                        those can be damaged, under repair, their positions always change
+                        and so do the employees and vehicle operators.
+                            <br><br>
+                            We have solved the vehicle management problem by taking advantage of
+                        javascript sessions and their electronJS implementation. Moving most
+                        of the load to the server instead of client.
+                        </p>
+                    </div>
+                    <div title="Used" class="Used">
+                        <p>JavaScript</p>
+                        <p>NodeJS</p>
+                        <p>ElectronJS</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
     <div id="abilities" category="abilities" class="container">

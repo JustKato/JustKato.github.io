@@ -82,6 +82,7 @@
     margin: 5rem 0;
 
     min-height: 20rem;
+    border-bottom: 1px solid var(--accent-red);
 }
 
 .bg-gradient, .bg-img {
@@ -89,7 +90,7 @@
     right: 0;
     top: 0;
 
-    width: 50%;
+    width: 51%;
     height: 100%;
 
     transition-duration: 250ms;
@@ -119,23 +120,9 @@
     transition-duration: 250ms;
 }
 
-.container .section:nth-child(even) .bg-gradient:hover {
-    width: 80%;
-    right: -30%;
-    background: linear-gradient(to left, #ffffff00, #ffffff00, #ffffff00, var(--black1));
-}
-
-.container .section:nth-child(odd) .bg-gradient:hover {
-    width: 80%;
-    left: -30%;
-    background: linear-gradient(to left, #ffffff00, #ffffff00, #ffffff00, var(--black1));
-}
-
 .container .section .bg-img {
     background-size: cover;
     background-repeat: no-repeat;
-
-    border-bottom: 1px solid var(--accent-red);
 
     z-index: 0;
 }

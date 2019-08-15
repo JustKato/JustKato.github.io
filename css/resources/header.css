@@ -1,0 +1,70 @@
+header {
+    position: fixed;
+    left: 0;
+    top: 0;
+
+    height: 100%;
+
+    background-color: var(--black);
+    box-shadow: 4px 0 10px rgba(0, 0, 0, 0.4);
+    z-index: 100;
+}
+
+header .header-element {
+    position: relative;
+    padding: 1.5rem;
+
+    width: 2.75rem;
+    height: 2.75rem;
+
+    cursor: pointer;
+}
+
+
+header .header-element .hover-content {
+    position: absolute;
+    right: -13rem;
+    top: 2.2rem;
+
+    width: 9rem;
+    padding: .25rem 1rem;
+
+    font-size: 1.25rem;
+    text-align: center;
+
+    color: white;
+    background-color: #ffffff1f;
+
+    border-radius: 0.5rem;
+
+    z-index: 10;
+    opacity: 0;
+    transition-duration: 250ms;
+    transition-timing-function: ease-in-out;
+}
+
+header .header-element:hover .hover-content {
+    opacity: 1;
+}
+
+.header-element:hover {
+    background-color: var(--accent-orange);
+}
+
+.header-icon {
+    transition-duration: 150ms;
+}
+
+.header-element:hover .header-icon {
+    transition-timing-function: ease-in-out;
+    transform: translateX(0);
+}
+
+.header-element:hover .header-icon {
+    filter: invert(100%);
+    transform: translateX(.5rem);
+}
+
+.header-element .hover-content {
+    pointer-events: none;
+}

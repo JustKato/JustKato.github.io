@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kato: Resources</title>
+    <meta name="description" content="Useful resources for developers">
+    <meta name="keywords" content="HTML,CSS,JavaScript,json,minecraft,java">
+    <meta name="author" content="Kato Twofold">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--    <link rel="stylesheet" href="./css/sweetalert2.min.css">-->
+    <link rel="stylesheet" href="./css/sweetalert2.dark.css">
+    <link rel='stylesheet' type='text/css' media='screen' href='./css/resources.css'>
+<!--    <link rel='stylesheet' type='text/css' media='screen' href='./css/main.css'>-->
+</head>
+<body>
+
+    <div class="main-wrapper">
+
+        <header>
+            <div class="header-element" name="home" onclick="SwitchPage('./html/resources/home.html');">
+                <div class="header-icon"></div>
+                <div class="hover-content">Home</div>
+            </div>
+            <!-- onclick="SwitchPage('./html/resources/wiki.html');"-->
+            <div class="header-element" name="wiki" onclick="Unimplemented()">
+                <div class="header-icon"></div>
+                <div class="hover-content">Wiki List</div>
+            </div>
+            <!-- onclick="SwitchPage('./html/resources/courses.html');"-->
+            <div class="header-element" name="courses" onclick="Unimplemented()">
+                <div class="header-icon"></div>
+                <div class="hover-content">Free Courses</div>
+            </div>
+            <!-- onclick="SwitchPage('./html/resources/snippets.html');"-->
+            <div class="header-element" name="snippets" onclick="Unimplemented()">
+                <div class="header-icon"></div>
+                <div class="hover-content">Code Snippets</div>
+            </div>
+        </header>
+
+        <div class="content">
+        </div>
+
+    </div>
+    <div class="loading">
+        <div class="box">
+            <h2>Loading</h2>
+            <p><div class="spinner">|</div></p>
+        </div>
+    </div>
+</body>
+</html>
+
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<script src="./js/resources.js"></script>
+<script src="./js/sweetalert2.min.js"></script>
+<script src="./js/notifications.js"></script>

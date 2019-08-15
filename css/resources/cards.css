@@ -1,0 +1,31 @@
+.cards {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 2rem;
+
+    width: 90%;
+    margin: 2rem auto;
+    padding-left: 9rem;
+}
+
+.cards .card {
+    display: flex;
+    flex-flow: column;
+
+    padding: 2rem 1rem 3rem 1rem;
+
+    max-width: 24vw;
+
+    border: 1px dashed var(--late2);
+}
+
+.cards .card .title {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: var(--late0)
+}
+
+.cards .card .description {
+    font-size: 1rem;
+    color: var(--late2)
+}
