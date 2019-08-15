@@ -19,7 +19,6 @@ function SwitchPage(page) {
 
 function LoadHome() {
     ShowLoading();
-
     $.ajax({
         url: '/html/resources/home.html',
         complete: msg => {
