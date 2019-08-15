@@ -17,6 +17,18 @@ function SwitchPage(page) {
 
 }
 
+function LoadHome() {
+    ShowLoading();
+
+    $.ajax({
+        url: '/html/resources/home.html',
+        complete: msg => {
+            contents.html(msg.responseText);
+            CloseLoading();
+        }
+    })
+}
+
 function ShowLoading() {
     $('.loading').css('opacity', '1');
 }
