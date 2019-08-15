@@ -11,6 +11,7 @@ function SwitchPage(page) {
         url: page,
         complete: msg => {
             contents.html(msg.responseText);
+            CloseLoading();
         }
     })
 
