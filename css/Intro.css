@@ -17,7 +17,7 @@
     align-items: center;
 }
 
-.intro .title h1, h2 {
+.intro .title h1:not(.swal2-title), h2:not(.swal2-title) {
     font-weight: 200;
     margin: 0.4em 0;
 
