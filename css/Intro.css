@@ -163,9 +163,9 @@ and (max-width : 600px) {
         font-size: 1.5rem;
     }
 
-    .intro .icons .icon .icon-experience,.icon-about,.icon-projects {
-        width: 3.5rem;
-        height: 3.5rem;
+    .icon-experience,.icon-about,.icon-projects, .icon-resources {
+        width: 3.5rem !important;
+        height: 3.5rem !important;
     }
 
     .intro .title h1 {

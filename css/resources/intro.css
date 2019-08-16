@@ -4,7 +4,7 @@
 
     background-repeat: no-repeat;
     background-size: 93%;
-    background-position: 172% 20%;
+    /*background-position: 172% 20%;*/
 
     display: flex;
     flex-flow: column;

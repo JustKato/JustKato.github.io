@@ -1,2 +1,12 @@
 @import "https://fonts.googleapis.com/css?family=Raleway:200,100,400";
 @import "https://fonts.googleapis.com/css?family=Roboto:200,100,400";
+
+
+a:hover {
+    cursor: pointer;
+}
+/* Corrections*/
+a, a:visited, a:hover, a:active {
+    color: var(--accent-red);
+    text-decoration: none;
+}

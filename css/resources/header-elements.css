@@ -10,6 +10,10 @@
     filter: invert(70%);
 }
 
+.header-element[name="homepage"] .header-icon {
+    background-image: url("../../Images/icons/homepage.svg");
+}
+
 .header-element[name="home"] .header-icon {
     background-image: url("../../Images/icons/home.svg");
 }

@@ -24,6 +24,7 @@
 
 .loading .box {
     border: 1px solid var(--late2);
+    border-radius: 100rem;
     padding: .5rem 2rem;
 
     display: flex;
@@ -31,6 +32,8 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+
+    background-color: #ffffff12;
 }
 
 .loading .box h2 {

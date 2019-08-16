@@ -7,6 +7,7 @@
 @import "./Containers.css";
 @import "./Containers2.css";
 @import "./Settings.css";
+@import "resources/cards.css";
 
 :root {
     scroll-behavior: smooth;
@@ -32,13 +33,4 @@ html, body {
 
 .container {
     padding: 2rem;
-}
-
-a:hover {
-    cursor: pointer;
-}
-/* Corrections*/
-a, a:visited, a:hover, a:active {
-    color: var(--accent-red);
-    text-decoration: none;
 }

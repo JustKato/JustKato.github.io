@@ -16,13 +16,19 @@
 
     <div class="main-wrapper">
 
-        <header>
+        <div class="header-button" onclick="ShowMenu()"><div class="hamburger-icon"></div></div>
+
+        <header class="hidden">
+            <div class="header-element" name="homepage" onclick="window.location = `/`">
+                <div class="header-icon"></div>
+                <div class="hover-content">Main Menu</div>
+            </div>
             <div class="header-element" name="home" onclick="LoadHome()">
                 <div class="header-icon"></div>
                 <div class="hover-content">Home</div>
             </div>
             <!-- onclick="SwitchPage('./html/resources/wiki.html');"-->
-            <div class="header-element" name="wiki" onclick="Unimplemented()">
+            <div class="header-element" name="wiki" onclick="SwitchPage(`/html/resources/wiki.html`)">
                 <div class="header-icon"></div>
                 <div class="hover-content">Wiki List</div>
             </div>

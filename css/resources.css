@@ -13,6 +13,8 @@
     font-family: 'Raleway', 'Roboto', 'Ubuntu', sans-serif;
     background: var(--black1);
     color: var(--late0);
+
+    overflow-x: hidden;
 }
 
 html, body {
@@ -21,6 +23,17 @@ html, body {
 }
 
 .main-wrapper {
-    min-width: 100vh;
+    margin: 0 auto;
 }
 
+@media only screen and (max-width : 1300px) {
+    .main-wrapper {
+        width: 90vw;
+    }
+}
+
+@media only screen and (max-width : 800px) {
+    .main-wrapper {
+        width: 80vw;
+    }
+}

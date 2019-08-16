@@ -52,7 +52,12 @@
     margin: 1rem 3rem;
 }
 
-.container .title {
+#about .about-title {
+    font-size: 1.7rem !important;
+    font-weight: 300 !important;
+}
+
+.container .big-card-title {
     position: relative;
 
     margin-top: 2.5rem;
@@ -60,7 +65,7 @@
     font-size: 4rem;
 }
 
-.container .title:after {
+.container .big-card-title:after {
     content: '';
 
     position: absolute;
@@ -73,7 +78,7 @@
     background-color: var(--accent-orange);
 }
 
-.container:nth-child(odd) .title:after {
+.container:nth-child(odd) .big-card-title:after {
     background-color: var(--accent-red);
 }
 
