@@ -3,17 +3,17 @@
     {
       "title": "Database Management Software",
       "description": "&nbsp;&nbsp;&nbsp;&nbsp;I have worked for a period of roughly 6 months, and an additional 2 for maintenance on a database management software for a company from Romania. <br> &nbsp;&nbsp;&nbsp;&nbsp;Provided all the code and hired another staff member 6 months in only for the maintenance of the software.<br> &nbsp;&nbsp;&nbsp;&nbsp;The client is happy and the product has been successfully delivered ticking all checks and being perfectly functional, the software itself has been developed in <b>NodeJS</b> using the Electron framework (as requested by the company).",
-      "bg-image": "http://justkato.me/Images/Containers/Software.png"
+      "bg-image": "/Images/Containers/Software.png"
     },
     {
       "title": "Application Development",
       "description": "My rather short dive into the \"apps\" world has helped me learn a lot about game design and creating applications for mobile devices. <br>I have been using Unity since 2016, but ever since they've shown a disregard towards their customers I have opted for an FOSS ( Free Open Source ) Game Engine, <a href=\"https://godotengine.org\">Godot Game Engine</a>.<br><br>After only a week I have mastered Godot Engine's basics and have become confident enough at creating my own app <a onClick=\"alert('Currently Unavailable')\">(Neon Bounce)</a>.",
-      "bg-image": "http://justkato.me/Images/Containers/Application.png"
+      "bg-image": "/Images/Containers/Application.png"
     },
     {
       "title": "Successful Game Servers",
       "description": "&nbsp;&nbsp;&nbsp;&nbsp;I have owned and hosted an amount of game servers. These game servers have initially introduced me to the concept of servers, teaching me about networking and how the IOT works.<br>&nbsp;&nbsp;&nbsp;&nbsp;The amount of fun I have had was more so from administering the server from either the web-panel or from all the hundreds of config files that I had on my at the moment <a href=\"https://www.archlinux.org/\">Arch Linux</a> server, pushing me to strive for better and better, and to learn so that I can perform better.<br>&nbsp;&nbsp;&nbsp;&nbsp;I have gained a lot of experience with hosting games and managing through all the various popular hosting panels such as <a href=\"https://cpanel.net/\">cpanel</a>, <a href=\"https://www.plesk.com/\">Plesk</a>, <a href=\"https://www.directadmin.com\">DirectAdmin</a> and many others. At one point I have had decided to finally get my own home server, which I have turned into my go-to server that has an annoying dynamic iP Address that I had to write a program for to auto updates the name-servers, written in <a href=\"https://nodejs.org/en/\">NodeJS</a> by me to contact <a href=\"https://namecheap.com\">namecheap.com</a>'s API. My servers had little to no down-time and I have managed them by myself for all those years accumulating plenty of Linux and windows server knowledge.",
-      "bg-image": "http://justkato.me/Images/Containers/Games.png"
+      "bg-image": "/Images/Containers/Games.png"
     }
   ],
   "abilities": [

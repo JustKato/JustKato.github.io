@@ -1,6 +1,6 @@
 function PreLoadContainers() {
     $.ajax({
-        url: `http://justkato.me/Database/containers.json`,
+        url: `/Database/containers.json`,
         type: `get`,
         complete: (msg) => {
             if (msg.status == 200) {
