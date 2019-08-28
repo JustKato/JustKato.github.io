@@ -51,8 +51,8 @@
     cursor: unset;
 }
 
-.cards .card::after {
-    content: "MORE";
+.cards .card[more]::after {
+    content: attr(more);
 
     position: absolute;
     right: 2rem;
@@ -67,6 +67,7 @@
 
     transition: 150ms ease-in-out;
 }
+
 
 .cards .card .title {
     font-size: 2.5rem;
