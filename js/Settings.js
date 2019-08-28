@@ -25,6 +25,6 @@ $(document).ready(() => {
         $(`.settings .icon`).css('opacity', (1 - scrollY/600).toFixed(2));
     });
 
-    $('#theme_select').val(localStorage.getItem("theme").toUpperCase());
+    try { $('#theme_select').val(localStorage.getItem("theme").toUpperCase()); } catch (e) {}
 
 });
